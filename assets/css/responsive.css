@@ -1,0 +1,103 @@
+/* PC */
+@media (max-width:  64em) {
+
+}
+
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+    #nav .subnav a {
+        padding:5px 12px ;
+    }
+
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-info .contact-submit-btn {
+        font-size: 18px;
+    }
+
+    #footer .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+    } 
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    /* pseudo class :chon the li dau tien */
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding:5px 36px ;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+    
+    /* #content .member-item {
+        width: 100%;
+        padding-top: 30px;
+    } */
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #contact .contact-form {
+        margin-top: 32px;
+    }
+
+}
